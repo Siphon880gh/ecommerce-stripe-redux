@@ -1,17 +1,24 @@
 Ecommerce Stripe Redux App
 ====
-![Last Commit](https://img.shields.io/github/last-commit/Siphon880gh/converting-context-api-to-redux/master)
-<a target="_blank" href="https://github.com/Siphon880gh" rel="nofollow"><img src="https://img.shields.io/badge/GitHub--blue?style=social&logo=GitHub" alt="Github" data-canonical-src="https://img.shields.io/badge/GitHub--blue?style=social&logo=GitHub" style="max-width:100%;"></a>
-<a target="_blank" href="https://www.linkedin.com/in/weng-fung/" rel="nofollow"><img src="https://camo.githubusercontent.com/0f56393c2fe76a2cd803ead7e5508f916eb5f1e62358226112e98f7e933301d7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c696e6b6564496e2d626c75653f7374796c653d666c6174266c6f676f3d6c696e6b6564696e266c6162656c436f6c6f723d626c7565" alt="Linked-In" data-canonical-src="https://img.shields.io/badge/LinkedIn-blue?style=flat&amp;logo=linkedin&amp;labelColor=blue" style="max-width:100%;"></a>
-<a target="_blank" href="https://www.youtube.com/user/Siphon880yt/" rel="nofollow"><img src="https://camo.githubusercontent.com/0bf5ba8ac9f286f95b2a2e86aee46371e0ac03d38b64ee2b78b9b1490df38458/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f596f75747562652d7265643f7374796c653d666c6174266c6f676f3d796f7574756265266c6162656c436f6c6f723d726564" alt="Youtube" data-canonical-src="https://img.shields.io/badge/Youtube-red?style=flat&amp;logo=youtube&amp;labelColor=red" style="max-width:100%;"></a>  
+![Last Commit](https://img.shields.io/github/last-commit/Siphon880gh/ecommerce-stripe-redux/master)
+<a target="_blank" href="https://github.com/Siphon880gh" rel="nofollow"><img src="https://img.shields.io/badge/GitHub--blue?style=social&logo=GitHub" alt="Github" data-canonical-src="https://img.shields.io/badge/GitHub--blue?style=social&logo=GitHub" style="max-width:8.5ch;"></a>
+<a target="_blank" href="https://www.linkedin.com/in/weng-fung/" rel="nofollow"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue" alt="Linked-In" data-canonical-src="https://img.shields.io/badge/LinkedIn-blue?style=flat&amp;logo=linkedin&amp;labelColor=blue" style="max-width:10ch;"></a>
+<a target="_blank" href="https://www.youtube.com/@WayneTeachesCode/" rel="nofollow"><img src="https://img.shields.io/badge/Youtube-red?style=flat&logo=youtube&labelColor=red" alt="Youtube" data-canonical-src="https://img.shields.io/badge/Youtube-red?style=flat&amp;logo=youtube&amp;labelColor=red" style="max-width:10ch;"></a>
 
 Description
 ---
-By Weng Fei Fung. Here I converted a Context API app to a Redux app. It's simply a matter of providing a Redux Provider component and passing to it a store that is aware of reducers and initial state. The Redux Provider component's descendant components will be able to dispatch actions and re-render based on new states returned by the reducers. This app is an e-commerce app with a shopping cart integrated with Stripe API.
+By Weng Fei Fung. 
 
-Demo
----
-Checkout the app [here](https://ecommerce-stripe-redux.herokuapp.com/)
+This app is an E-Commerce CRA React app with a Shopping Cart integrated with Stripe API. The database is your local  MongoDB. Note mentioning is the global state manager here is Redux which is pretty feature scalable for a huge E-commerce website.
+
+I have closed off the demo to save costs. Here's what you can do depending on your interests:
+- If you want to implement Stripe in a CRA React, this could serve partially as your boilerplate.
+- If you are NOT using React but want Stripe, refer to my Stripe notes (I like to write coding tutorials) at:
+  - Concepts First: https://wengindustry.com/app/bizbrain/?open=Stripe%20-%20_PRIMER
+  - Developer: https://wengindustry.com/app/devbrain/?open=Stripe%20Developer%20-%20_PRIMER
+  - You may want to test Stripe in Test Mode (separate API key) and using simulation credit card numbers first.
+- If you want to use a global state that is more feature scalable than Context API, then you can try Redux. If you look into my git commit history, you can step through how I converted the more simpler Context API to Redux.
+  - The conversion is simply a matter of providing a Redux Provider component and passing to it a store that is aware of reducers and initial state. The Redux Provider component's descendant components will be able to dispatch actions and re-render based on new states returned by the reducers. 
 
 Screenshot
 ---
@@ -20,7 +27,6 @@ Screenshot
 Table of Contents
 ---
 - [Description](#description)
-- [Demo](#demo)
 - [Screenshot](#screenshot)
 - [Installation](#installation)
 - [Questions](#questions)
