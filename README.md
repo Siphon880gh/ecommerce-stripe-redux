@@ -14,8 +14,8 @@ This app is an E-Commerce CRA React app with a Shopping Cart integrated with Str
 I have closed off the demo to save costs. Here's what you can do depending on your interests:
 - If you want to implement Stripe in a CRA React, this could serve partially as your boilerplate.
 - If you are NOT using React but want Stripe, refer to my Stripe notes (I like to write coding tutorials) at:
-  - Concepts First: https://wengindustry.com/app/bizbrain/?open=Stripe%20-%20_PRIMER
-  - Developer: https://wengindustry.com/app/devbrain/?open=Stripe%20Developer%20-%20_PRIMER
+  - Concepts First: <a target="_blank" href='https://wengindustry.com/app/bizbrain/?open=Stripe%20-%20_PRIMER'>Weng's Business Primer to Stripe</a>
+  - Developer: <a target="_blank" href='https://wengindustry.com/app/devbrain/?open=Stripe%20Developer%20-%20_PRIMER'>Weng's Development Primer to Stripe</a>
   - You may want to test Stripe in Test Mode (separate API key) and using simulation credit card numbers first.
 - If you want to use a global state that is more feature scalable than Context API, then you can try Redux. If you look into my git commit history, you can step through how I converted the more simpler Context API to Redux.
   - The conversion is simply a matter of providing a Redux Provider component and passing to it a store that is aware of reducers and initial state. The Redux Provider component's descendant components will be able to dispatch actions and re-render based on new states returned by the reducers. 
@@ -41,5 +41,5 @@ Questions
 	- Visit [Siphon880gh's Repositories](https://github.com/Siphon880gh)
 
 - Where can I reach you?
-	- You can reach me with additional questions at <a href='mailto:weffung@ucdavis.edu'>weffung@ucdavis.edu</a>.
+	- You can reach me with additional questions at <a target="_blank" href='mailto:weng.f.fung@gmail.com'>weng.f.fung@gmail.com</a>.
 	- Want to [hire me](//wengindustry.com)?
